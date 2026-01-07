@@ -33,49 +33,47 @@
 
 
      <!-- MENU -->
-     <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
-          <div class="container">
+    <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+  <div class="container">
 
-               <div class="navbar-header">
-                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                         <span class="icon icon-bar"></span>
-                         <span class="icon icon-bar"></span>
-                         <span class="icon icon-bar"></span>
-                    </button>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainMenu">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
 
-                    <!-- lOGO TEXT HERE -->
-                    <a href="index.html" class="navbar-brand">EMERGE SOLUTIONS</a>
-               </div>
+      <a href="index.html" class="navbar-brand">EMERGE SOLUTIONS</a>
+    </div>
 
+    <div class="collapse navbar-collapse" id="mainMenu">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#feature">Features</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#pricing">Pricing</a></li>
 
-               <!-- MENU LINKS -->
-               <ul class="nav navbar-nav">
-    <li><a href="index.html#home">Home</a></li>
-    <li><a href="index.html#feature">Features</a></li>
-    <li><a href="index.html#about">About Us</a></li>
-    <li><a href="index.html#pricing">Pricing</a></li>
-
-    <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-        Legal <b class="caret"></b>
-    </a>
-    <ul class="dropdown-menu">
-        <li><a href="terms.html">Terms & Conditions</a></li>
-        <li>
-            <a href="#" onclick="openCookieSettings(); return false;">
-              🍪 Cookie Settings
-            </a>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            Legal <b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="terms.html">Terms & Conditions</a></li>
+            <li>
+              <a href="#" onclick="openCookieSettings(); return false;">🍪 Cookie Settings</a>
+            </li>
+            <li><a href="cookie.html">Cookie Policy</a></li>
+            <li><a href="policy.html">Privacy Policy</a></li>
+          </ul>
         </li>
-        <li><a href="cookie.html">Cookie Policy</a></li>
-        <li><a href="policy.html">Privacy Policy</a></li>
-    </ul>
-</li>
 
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
 
-    <li><a href="index.html#contact">Contact</a></li>
-</ul>
-          </div>
-     </section>
+  </div>
+</section>
+
 
 
      <!-- FEATURE -->
@@ -178,6 +176,7 @@
      </section>
 
 
+
      <!-- ABOUT -->
      <section id="about" data-stellar-background-ratio="0.5">
           <div class="container">
@@ -193,9 +192,8 @@
                          <div class="team-thumb">
                               <img src="images/team-image1.png" class="img-responsive" alt="Andrew Orange">
                               <div class="team-info team-thumb-up">
-                                   <h2>Martin Harris</h2>
                                    <small>Graphic Designer</small>
-                                   <p>Martin Harris is a creative and detail-oriented Graphic Designer with a strong passion for visual storytelling. He specializes in crafting impactful designs that blend creativity with brand strategy, delivering visually engaging solutions across digital and print platforms.</p>
+                                   <p>our creative and detail-oriented Graphic Designer with a strong passion for visual storytelling. He specializes in crafting impactful designs that blend creativity with brand strategy, delivering visually engaging solutions across digital and print platforms.</p>
                               </div>
                          </div>
                     </div>
@@ -203,9 +201,9 @@
                     <div class="col-md-4 col-sm-4">
                          <div class="team-thumb">
                               <div class="team-info team-thumb-down">
-                                   <h2>Catherine Soft</h2>
                                    <small>Senior Manager</small>
-                                   <p>As a Senior Manager, Catherine Soft brings a balanced approach of leadership and collaboration. Her ability to guide teams, manage complex responsibilities, and maintain high professional standards makes her a valued part of the organization.</p>
+                                   <p>The Senior Manager plays a key role in driving leadership and collaboration across teams.  Responsible for managing complex responsibilities, aligning goals, and maintaining high professional standards to ensure smooth and successful project execution.</p>
+                                   
                               </div>
                               <img src="images/team-image2.png" class="img-responsive" alt="Catherine Soft">
                          </div>
@@ -215,13 +213,12 @@
                          <div class="team-thumb">
                               <img src="images/team-image3.png" class="img-responsive" alt="Jack Wilson">
                               <div class="team-info team-thumb-up">
-                                   <h2>Jones Brown</h2>
                                    <small>Full-Stack Developer</small>
-                                   <p>Jones Brown is a skilled Full-Stack Developer with expertise in building scalable, high-performance web applications. He works seamlessly across front-end and back-end technologies to deliver secure, efficient, and user-focused digital solutions.</p>
+                                   <p>our skilled Full-Stack Developer with expertise in building scalable, high-performance web applications. He works seamlessly across front-end and back-end technologies to deliver secure, efficient, and user-focused digital solutions.</p>
                               </div>
                          </div>
                     </div>
-                    
+
                </div>
           </div>
      </section>
@@ -652,9 +649,11 @@ function handleForm(event) {
 </div>
         <!-- Bottom Line -->
         <div class="col-md-12 col-sm-12">
-          <p class="footer-copy">
-            © <span id="year"></span> EMERGE SOLUTIONS — SEIVANUMERICA UNIPESSOAL LDA. All Rights Reserved.
-          </p>
+         <p class="footer-copy">
+  © <span id="year"></span> EMERGE SOLUTIONS — SEIVANUMERICA UNIPESSOAL LDA. All Rights Reserved. <br>
+  <span>🔒 SSL Secured Website</span>
+</p>
+
         </div>
 
       </div>
@@ -673,6 +672,8 @@ function handleForm(event) {
      <script src="js/owl.carousel.min.js"></script>
      <script src="js/smoothscroll.js"></script>
      <script src="js/custom.js"></script>
+
+
 
 </body>
 </html>
